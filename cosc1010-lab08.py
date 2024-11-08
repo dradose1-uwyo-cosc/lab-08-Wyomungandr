@@ -71,10 +71,10 @@ def slope_intercept(m, b, lower_bound, upper_bound):
 
 while True:
     # Prompt user for input
-    m_input = input("Enter the slope (m): ")
-    b_input = input("Enter the intercept (b): ")
-    lower_bound_input = input("Enter the lower x bound: ")
-    upper_bound_input = input("Enter the upper x bound: ")
+    m_input = input("Enter the slope (m): Or type 'exit' to stop")
+    b_input = input("Enter the intercept (b): Or type 'exit' to stop")
+    lower_bound_input = input("Enter the lower x bound: Or type 'exit' to stop")
+    upper_bound_input = input("Enter the upper x bound: Or type 'exit' to stop")
     
     # Exit the loop if user types "exit"
     if m_input.lower() == "exit" or b_input.lower() == "exit" or lower_bound_input.lower() == "exit" or upper_bound_input.lower() == "exit":
@@ -103,11 +103,12 @@ print("*" * 75)
 # Create a loop like above to prompt the user for input for the three values
 # Create a second function that just does the square root operation 
     # If the number you are trying to take the square root of is negative, return null
+
 while True:
     # Prompt user for input
-    a_input = input("Enter the coefficient a: ")
-    b_input = input("Enter the coefficient b: ")
-    c_input = input("Enter the coefficient c: ")
+    a_input = input("Enter the coefficient a: Or type 'exit' to stop")
+    b_input = input("Enter the coefficient b: Or type 'exit' to stop")
+    c_input = input("Enter the coefficient c: Or type 'exit' to stop")
     
     # Exit the loop if user types "exit"
     if a_input.lower() == "exit" or b_input.lower() == "exit" or c_input.lower() == "exit":
